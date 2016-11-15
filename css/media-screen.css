@@ -1,0 +1,440 @@
+@charset "UTF-8";
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.1.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+
+ additional font availiable
+ font-family: 'Open Sans', sans-serif;
+ font-weight:300; //thin
+ font-weight:400; //normal
+ font-weight:600; //semibold
+ font-weight:700; //bold
+ font-weight:800; //bolder
+ */
+/* Large only --min-width 640px and max-width 1199px */
+
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+/* Large and up --min-width 1024px
+===============================================*/
+
+@media screen and (min-width: 64em) {
+    .menu.simple > li > a {
+        font-size: 15px;
+        color: #333;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .login-register {
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 8px;
+    }
+    .login-register a {
+        color: #333;
+        display: inline-block;
+        line-height: 18px;
+    }
+    .content-list .topic-default-img {
+    position: absolute;
+    left: -125px;
+    top: 5px;
+}
+.user-comment-form .img-user a,
+.user-comment-form .img-user img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.content-list .topic-default-img img {
+    width: 90px;
+    height:90px;
+    border-radius: 50%;
+}
+    .footer-content p {
+        padding: 0 17em;
+    }
+    .secondary-node-links {
+        padding-top: 1rem;
+    }
+    .footer-content p span {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+    }
+    .twaran-activity-inner h3 {
+        margin-left: -15px;
+    }
+    /*subject landing page css*/
+    
+    .page-subject .row.l-main {
+        max-width: 100%;
+    }
+    .page-subject .subject-intro {
+        max-width: 530px;
+        margin-left: auto;
+        padding: 60px 20px 40px 50px;
+        padding-bottom: 30px;
+    }
+    .page-subject .subject-content-wrapper .subject-content {
+        max-width: 670px;
+        padding: 40px 20px 40px 0px;
+    }
+    .subject-content .view-subject-view .views-row {
+        padding-left: 150px;
+    }
+    .subject-content .view-subject-view .views-row:hover {
+        background: #f5f5f5;
+    }
+    .subject-intro-descrip-inner {
+        max-width: 530px;
+        margin-left: auto;
+        padding: 20px 20px 40px 50px;
+        padding-bottom: 30px;
+    }
+    .page-subject .subject-content-wrapper h5 {
+        margin: -1em 0 2em 0em;
+    }
+    .page-subject .subject-content-wrapper {
+        padding-top: 30px;
+        padding-left: 60px;
+    }
+    .page-subject .subject-intro-descrip {
+        min-height: 380px;
+    }
+    #block-twaran-custom-twaran-custom-outline .content {
+        height: 534px;
+        overflow-y: auto;
+    }
+    /*subject landing page css ends*/
+    
+    .breadcrumb {
+        margin: -19px 0 0;
+    }
+    .front.not-logged-in .top-bar-right {
+        padding: 3px 0px 0 0;
+    }
+    /*Node page styling*/
+    
+    .node-full-screen .sidebar-left {
+        height: 558px;
+    }
+    .node-full-screen .large-9 {
+        background-color: #f5f5f5;
+        padding: 0;
+    }
+    .node-full-screen iframe {
+        height: 532px !important;
+    }
+    /*Node page styling ends*/
+
+    .comment .rate-number-up-down-btn-up, .comment .rate-number-up-down-btn-down,
+    .comment .rate-number-up-down-rating {
+        float: left;
+        margin: 0 3px;
+    }
+ .page-user .grid-only .main-content-wrap {
+    padding: 0;
+ }
+.qod-block-wrap {
+    padding-left: 2em;
+}
+}
+/* Medium only --min-width 639px and max-width 1023px*/
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .top-bar-right {
+        padding-right: 85px;
+    }
+    nav.top-bar {
+        padding: 10px 0;
+    }
+    .menu-icon {
+        top: 21px;
+    }
+}
+/* Medium and up --min-width 639px
+==============================================*/
+
+@media screen and (min-width: 40em) {
+    .user-comment-form .img-user {
+        padding: 0;
+    }
+    .user-comment-form .img-user a,
+    .user-comment-form .img-user img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .not-logged-in.page-user .main form#user-register-form label {
+        width: 30%;
+        float: left;
+    }
+    .not-logged-in.page-user .main form#user-register-form input,
+    .not-logged-in.page-user .main form#user-register-form select {
+        width: 70%;
+        float: right;
+    }
+    #user-login {
+        padding: 5px 6em 0;
+        text-align: center;
+        margin-top: 0em;
+    }
+    .comment-form {
+        padding-left: 3.5rem;
+    position: relative;
+    top: 4px;
+}
+
+}
+/* Medium and small --max-width 1023px
+==============================================*/
+
+@media screen and (max-width: 63.9375em) {
+    .main-header-for-large {
+        display: none;
+    }
+    .edit-profile-link {
+        opacity: 1;
+    }
+    .banner-brand {
+        text-align: center;
+        padding: 45px 15px 30px;
+    }
+    .page-twaran-custom .sidebar-left {
+        width: 100%;
+    }
+    .search-box input#search,
+    .search-box {
+        width: 100% !important;
+    }
+    .page-subject .subject-intro {
+        padding: 35px 15px 5px;
+    }
+    .page-subject .subject-intro-descrip-inner {
+        padding: 10px 15px 20px;
+    }
+    .page-subject .subject-content {
+        padding-top: 2em;
+    }
+    .page-subject .content-list {
+        padding-left: 8em;
+    }
+    .top-bar-right .menu a {
+        padding: 10px 0;
+    }
+    .node-full-screen  iframe {
+      height:500px !important;
+      width: 100%;
+    }
+    .node-full-screen  .sidebar-left {
+      width: 100%;
+      height: auto !important;
+    }
+    .node-full-screen .large-9 {
+      height: auto !important;
+    }
+    .node-full-screen .menu.vertical > li {
+        display: table-cell;
+    }
+    .rate-number-up-down-btn-up, .rate-number-up-down-btn-down,
+    .rate-number-up-down-rating {
+        float: left;
+        margin: 0 5px;
+    }
+    .node-full-screen .links .user-picture img {
+            width: 40px;
+    height: 40px;
+    }
+    .secondary-node-links .menu.vertical > li {
+        padding: 0 10px;
+    }
+    .rate-number-up-down-rating {
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+        background: #bbb;
+    }
+    .vote-link > div {
+            margin: 0;
+    padding: 10px 0;
+    }
+    .large-1.links .menu > li:not(.menu-text) > a {
+            color: #bbb;
+    }
+    .node-type-video-lecture .sidebar-left-inner,
+    .node-type-video-illustration .sidebar-left-inner,
+    .node-type-example .sidebar-left-inner {
+        display: none;
+        position: relative;
+    }
+    .large-1.links .menu > li:not(.menu-text) > a.active {
+        color:#000;
+    }
+   
+}
+/* Small only  --max-width 639px 
+=============================================*/
+
+@media screen and (max-width: 39.9375em) {
+    #search-modal .search button {
+        width: 80%;
+    }
+    #language-select .language-switcher-locale-url li a {
+    padding: 3px 10px;
+    border: 2px solid;
+    margin: 5px 5px;
+    display: inline-block;
+    color: #bbb;
+    min-width: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+.user-img a.user-default-pic {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+}
+.activity-content .user-img {
+        top: 10px;
+}
+    .top-bar-right,
+    .top-bar-right ul {
+        background-color: #f7f7f7;
+    }
+    .top-bar-right ul {
+        float: right;
+    }
+    .top-bar-right li.user-name a {
+        padding-right: 0;
+    }
+    .top-bar-left {
+        padding: 10px 0;
+    }
+    .top-bar-right {
+        padding-right: 0px;
+    }
+    .not-logged-in.page-user .ul.primary li {
+        display: block;
+    }
+    .user-img img,
+    .user-img {
+        width: 45px;
+        height: 45px;
+    }
+    .activity-content {
+        padding-left: 0;
+    }
+    .user-details {
+        border-bottom: 1px solid #ddd !important;
+        padding-bottom: 15px;
+        margin-bottom: 7px;
+        padding-left: 3.3em;
+    }
+    .block-twaran-custom .menu li a {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .user-details li {
+        line-height: 16px;
+    }
+    .user-details .username,
+    .user-details .user-role {
+        font-size: 13px;
+    }
+    .user-details .post-date {
+        display: block;
+    }
+    #block-twaran-custom-twaran-custom-content-menu ul.menu,
+    .profile-right-bottom .tabs {
+        width: 100%;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        -moz-overflow-scrolling: touch;
+        overflow-scrolling: touch;
+    }
+    .profile-right-bottom .tabs-title {
+        display: table-cell;
+        float: none;
+    }
+    .user-details .content-type {
+        position: inherit;
+        top: 0px;
+    }
+    .page-subject .content-list {
+    padding-left: 5em;
+}
+    .tabs.primary {
+        width: 100%;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        -moz-overflow-scrolling: touch;
+        overflow-scrolling: touch;
+    }
+    #profile-modal .user-profile-img img {
+    margin-top: 0.5rem;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+    .not-logged-in.page-user .main .tabs.primary > li > a {
+        font-size: 12px;
+    }
+    .help-scroll form {
+        position: relative;
+    }
+    .help-scroll form::before {
+        content: "";
+        font-size: 24px;
+        position: absolute;
+        width: 143px;
+        height: 82px;
+        top: -45px;
+        background: url(../images/swipe-icon.png) left no-repeat;
+        -webkit-animation: swipe 1s linear infinite;
+        -moz-animation: swipe 1s linear infinite;
+        animation: swipe 1s linear infinite;
+    }
+    .help-scroll #block-twaran-custom-twaran-custom-content-menu .content {
+        position: relative;
+    }
+    #block-twaran-custom-twaran-custom-content-menu .content::before {
+        content: "";
+        font-size: 24px;
+        position: absolute;
+        width: 143px;
+        height: 82px;
+        top: 35px;
+        right: 20px;
+        margin-top: 20px;
+        opacity: 0;
+        background: url(../images/swipe-icon.png) left no-repeat;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        transition: all 0.5s linear;
+    }
+    .help-scroll #block-twaran-custom-twaran-custom-content-menu .content::before {
+        margin-top: 0px;
+        opacity: 1;
+    }
+      .node-full-screen  iframe {
+          height:auto !important;
+        }
+    .profile-right-top h3 {
+        margin-left: -10px;
+    } 
+}
+/* X-Small only  --max-width 480px */
+@media screen and (max-width: 30.000em) {
+    .menu > li {
+    display: inline-block;
+}
+}

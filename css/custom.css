@@ -1,0 +1,26 @@
+.page-messages .l-main ul {
+  padding: 0;
+  background: transparent;
+  border: 0; }
+  .page-messages .l-main ul.tabs li {
+    background: #f1f1f1;
+    float: left;
+    color: #fff; }
+    .page-messages .l-main ul.tabs li.active {
+      background: #0072c6;
+      border-left: 1px solid #0072c6;
+      border-top: 1px solid #0072c6;
+      border-bottom: 1px solid #0072c6; }
+      .page-messages .l-main ul.tabs li.active a {
+        color: #fff; }
+    .page-messages .l-main ul.tabs li a {
+      opacity: 0.85;
+      padding: 0.4rem 2.5rem;
+      background: transparent;
+      border: 0;
+      color: #4d4d4d;
+      font-size: 14px;
+      margin: 0;
+      display: block; }
+
+/*# sourceMappingURL=custom.css.map */
