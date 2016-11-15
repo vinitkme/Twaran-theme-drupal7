@@ -1,0 +1,444 @@
+@charset "UTF-8";
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.1.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+
+Content:
+1.header navigation for large styling
+2.header navigation for large styling
+3.header navigation for large styling
+4.header navigation for large styling
+5.header navigation for large styling
+6.header navigation for large styling
+7.header navigation for large styling
+8.header navigation for large styling
+
+
+ additional font availiable
+ font-family: 'FontAwesome';
+ font-family: 'Open Sans', sans-serif;
+ font-weight:300; //thin
+ font-weight:400; //normal
+ font-weight:600; //semibold
+ font-weight:700; //bold
+ font-weight:800; //bolder
+ */
+
+/*All Screen */
+body {
+    font-size: 16px;
+}
+.menu-icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 45px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+}
+.menu-icon::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #fefefe;
+    top: 0;
+    left: 0;
+    box-shadow: 0 8px 0 #fefefe, 0 16px 0 #fefefe;
+}
+.menu-icon:hover::after {
+    box-shadow: 0 8px 0 #fefefe, 0 16px 0 #fefefe;
+}
+/*header navigation for large styling
+======================================*/
+
+.front hr {
+    border-bottom: 1px solid #1095e6;
+}
+#logo {
+    font-size: 20px;
+    margin: 0;
+}
+#logo a {
+    color: #000;
+}
+.search-box {
+    position: relative;
+}
+.search-box .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 0;
+    margin-top: -13px;
+    z-index: 1;
+    color: #4f5b66;
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+    padding: 2px 2px;
+    right: 15px;
+}
+.search-box input#search {
+    width: 300px;
+    border: none;
+    font-size: 12pt;
+    float: left;
+    color: #262626;
+    padding-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0;
+}
+#search-modal li {
+    list-style-type: none;
+}
+#search-modal h1 {
+    font-weight: 300;
+    color: #777;
+    padding-top: 1.5em;
+}
+#search-modal .search input {
+        color: #333;
+        border: 0;
+    box-shadow: 0 0 0;
+    border-bottom: 1px solid #f1f1f1;
+    height: 63px;
+    font-size: 30px;
+    text-align: center;
+}
+#search-modal .search button {
+        width: 300px;
+    margin-top: 1em;
+    font-size: 19px;
+    font-weight: 600;
+    height: 50px;
+}
+ul.search {margin: 0;}
+input[type='search']:focus {
+      border: 0;
+    box-shadow: 0 0 0;
+    border-bottom: 1px solid #ccc;
+}
+.top-bar-right .menu a {
+    color:#333;
+}
+nav.top-bar {
+    height: 45px;
+    box-shadow: 0 0 4px #777;
+    padding: 0px 0;
+}
+.top-bar-right .notification, .top-bar-right .message {
+    font-size: 20px;
+    position: relative;
+}
+.top-bar-right .message .dropdown-pane.is-open {
+    visibility: visible;
+    left: -105px !important;
+    /* width: 300px; */
+    top: 45px !important;
+}
+.top-bar-right .notification .dropdown-pane.is-open {
+    visibility: visible;
+    left: -49px !important;
+    top: 60px !important;
+    padding: 0;
+    min-height: 75px;
+    border-radius: 5px;
+}
+.top-bar-right .dropdown-pane {
+    width: 300px !important;
+}
+.top-bar,
+.top-bar ul {
+    background-color: #fff;
+}
+.top-bar {
+    box-shadow: 0 0 4px #777;
+    padding: 5px 0;
+}
+.dropdown.menu > li > a {
+    padding-bottom: 16px;
+    padding-top: 15px;
+}
+.dropdown.menu > li  ul {
+    height: 300px;
+}
+.dropdown.menu .level-3 {
+    width: 450px;
+}
+.dropdown.menu .level-3 li {
+    float: left;
+    width: 47% !important;
+}
+.dropdown.menu .level-3 li a {
+    color: #fff;
+}
+.dropdown.menu > li ul ul ul li.subject-title {
+    width: 100% !important;
+}
+ul.menu li {
+    margin: 0;
+}
+ul.menu li {
+    list-style-type: none;
+}
+.dropdown.menu .is-dropdown-submenu-parent {
+    position: static;
+}
+.dropdown.menu > li {
+    position: relative !important;
+    padding: 0;
+}
+.dropdown.menu .submenu {
+    border: 0 none;
+}
+.front h1 {
+    margin: 0;
+}
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+    border: 0;
+    font-family: 'FontAwesome';
+    content: "\f105";
+}
+.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
+    border: 0;
+    font-family: 'FontAwesome';
+    content: "\f107";
+    right: 15px;
+    top: 13px;
+}
+/*notification styling*/
+.notification h5 {
+    background: #6a98ee;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0;
+}
+.notification .view-twaran-activity {
+    border-radius: 5px;
+    padding-bottom: 1em;
+    padding-right: 0;
+    padding-top: 0;
+}
+.notification .view-content {
+        height: 250px;
+    overflow-y: auto;
+}
+.notification ..view-twaran-activity h5 a {
+        float: right;
+    color: #fff;
+    font-size: 12px;
+    background-color: #8dc63e;
+    padding: 2px 6px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+/*notification styling end*/
+.dropdown.menu > li > a {
+    color: #222;
+    font-size: 14px;
+}
+#boards li a {
+    padding: 9px 15px;
+    color: #333;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+}
+#boards > li > a{
+    text-transform: uppercase;
+}
+#boards li span {
+    cursor: pointer;
+}
+#boards ul li a,
+#boards ul li span {
+    display: block;
+}
+#boards {
+    background-color: #fcfcfc;
+}
+#boards > li ul.level-2 {
+    background-color: #f5f5f5;
+}
+.dropdown.menu .submenu {
+    margin-top: 0px;
+}
+#boards ul.level-3 li a {
+    color: #fff;
+}
+#boards > li.cbse > a {
+    color: #1c758a;
+}
+#boards > li.bengal > a {
+    color: #ad3434;
+}
+#boards > li.bihar > a {
+    color: #b77033;
+}
+#boards > li:hover > a {
+    background-color: #f5f5f5;
+}
+#boards > li.cbse ul.level-2 > li:hover > a {
+     background-color: #1c758a;
+     color: #fff;
+}
+#boards > li.bengal ul.level-2 > li:hover > a {
+     background-color: #ad3434;
+     color: #fff;
+}
+#boards > li.bihar ul.level-2 > li:hover > a {
+     background-color: #b77033;
+     color: #fff;
+}
+#boards > li.cbse ul.level-3 > li:hover > a {
+     background-color: #3c5b97;
+     color: #fff;
+}
+#boards > li.bengal ul.level-3 > li:hover > a {
+     background-color: #ad3434;
+     color: #fff;
+}
+#boards > li.bihar ul.level-3 > li:hover > a {
+     background-color: #b77033;
+     color: #fff;
+}
+.dropdown.menu #boards  .is-dropdown-submenu-parent a::after {
+    margin-top: 0;
+}
+#boards > li.cbse ul.level-3 {
+    background-color: #1c758a !important;
+}
+#boards > li.bengal ul.level-3 {
+    background-color: #ad3434 !important;
+}
+#boards > li.bihar ul.level-3 {
+    background-color: #b77033 !important;
+}
+
+/*header navigation for large styling ends
+=============================================*/
+/*Twaran subject landing css
+=============================================*/
+
+
+.page-subject .main.columns {
+    padding: 0;
+}
+.subject-intro-wrapper {
+    background-color: #0f8ca3;
+}
+.subject-intro-descrip {
+    background-color: #f7f7f7;
+}
+.subject-intro-descrip p {
+    margin-bottom: 0;
+}
+.page-subject .subject-intro h2 a {
+    font-size: 40px;
+    color:#fff;
+    font-weight: 700;
+}
+.page-subject .subject-intro p {
+    color: #fff;
+    font-size: 13px;
+}
+.subject-content-wrapper h5 {
+        font-size: 14px;
+    color: #555555;
+
+    border-bottom: 1px solid #ccc;
+}
+.subject-content-wrapper h6 a {
+    font-size: 16px;
+    color: #232323;
+    font-weight: 600;
+}
+.subject-content-wrapper .content-list p {
+    font-size: 13px;
+    color: #333333;
+}
+.subject-intro-descrip-inner h6 {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.subject-intro-descrip-inner ul li a {
+    font-size: 13px;
+    color: #222;
+    line-height: 20px !important;
+}
+.subject-content .view-subject-view .views-row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subject-content .view-subject-view .views-row {
+    border-bottom: 1px solid #f5f5f5;
+}
+.page-subject .breadcrumb,
+.page-subject #page-title {
+    display: none;
+}
+#block-twaran-custom-twaran-custom-content-menu h2 {
+    display: none;
+}
+/*Twaran subject landing css ends
+=============================================*/
+
+
+/*Footer styling
+=============================================*/
+footer {
+    background-color: #ddd;
+    padding: 1em 0;
+}
+#footer-main .block-menu .menu > li {
+    display: block;
+}
+#footer-main .block-menu h2 {
+    font-size: 1.125rem;
+    margin: 0.875rem 0 5px;
+}
+#footer-main .block-menu li {
+
+    line-height: 21px;
+}
+#footer-main .block-menu li a {
+    color: #4d4d4d;
+    font-size: 14px;
+    padding: 4px 10px;
+}
+.footer-subs h6 {
+    text-align: right;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.footer-subs .menu, .footer-social .menu {
+    float: right;
+}
+.footer-subs .menu li:nth-child(1)  {
+    width: 78.5%;
+}
+.footer-subs .menu li:nth-child(1) input {
+    border-color: #ddd;
+    box-shadow: 0 0 0;
+}
+.copyright {text-align: right; font-size: 14px;}
+.footer-block-large {
+    border-left: 1px solid #ddd;
+}

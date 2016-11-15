@@ -1,0 +1,34 @@
+name = Twaran
+description = Base Theme for Twaran Project.
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/app.css
+stylesheets[all][] = css/twaran.css
+stylesheets[all][] = css/twaran-front.css
+stylesheets[all][] = css/media-screen.css
+stylesheets[all][] = css/font-awesome/css/font-awesome.min.css
+stylesheets[all][] = css/opensans/opensans.css
+stylesheets[all][] = css/custom.css
+
+scripts[] = bower_components/foundation-sites/dist/foundation.js
+scripts[] = js/app.js
+scripts[] = js/script.js
+scripts[] = js/jquery.viewport.mini.js
+scripts[] = bower_components/motion-ui/motion-ui.js
+
+regions[header] 				= Header
+regions[content] 				= Content
+regions[sidebar_first] 			= Sidebar first
+regions[sidebar_second] 		= Sidebar second
+regions[sidebar_left_full_one] 	= Sidebar Left full one
+regions[sidebar_right_full] 	= Sidebar Right full
+regions[footer_one] 			= Footer One
+regions[footer_two] 			= Footer Two
+regions[footer_three] 			= Footer Three
+regions[footer_four] 			= Footer Four
+regions[footer] 				= Footer
+
+core = "7.x"
+project = "twaran_responsive"
+datestamp = "1422160382"
